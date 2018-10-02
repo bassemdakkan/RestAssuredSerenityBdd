@@ -118,6 +118,7 @@
                 <configuration>
                     <includes>
                         <include>**/studentapp/**/*.java</include>
+                        <!--<include>**/StudentRunner.java</include>-->
                     </includes>
                     <!--forkCount>4</forkCount>
                     <reuseForks>false</reuseForks>

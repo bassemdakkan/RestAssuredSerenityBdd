@@ -67,4 +67,15 @@ public class StudentSerenitySteps {
     public ValidatableResponse getStudentInfoById(String id) {
         return SerenityRest.rest().given().get(id).then();
     }
+
+    @Step("Get student info by email ID:{0}")
+    public HashMap<String, Object> getStudentInfoByEmailId(String emailId) {
+        HashMap<String, Object> value = SerenityRest.rest().given()
+                .when()
+                .get("list")
+                .then()
+                .extract()
+                .path("findAll{it.email=='" + emailId + "'}.get(0)");
+        return value;
+    }
 }
