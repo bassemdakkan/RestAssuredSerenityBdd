@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4433fd90-1a45-45b1-b6b8-b1c17cda4d50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/studentapp/cucumber/StudentRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/studentapp/cucumber/steps/StudentSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/feature/student.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/studentapp/cucumber/serenity/StudentSerenitySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/studentapp/cucumber/serenity/StudentSerenitySteps.java" afterDir="false" />
     </list>
     <ignored path="target/" />
     <ignored path="$PROJECT_DIR$/target/classes/" />
@@ -76,7 +71,7 @@
           <entry key="feature" value="771" />
           <entry key="java" value="9533" />
           <entry key="properties" value="363" />
-          <entry key="txt" value="401" />
+          <entry key="txt" value="422" />
           <entry key="xml" value="934" />
         </counts>
       </usages-collector>
@@ -85,7 +80,7 @@
           <entry key="CSV" value="109" />
           <entry key="Cucumber" value="771" />
           <entry key="JAVA" value="9533" />
-          <entry key="PLAIN_TEXT" value="439" />
+          <entry key="PLAIN_TEXT" value="460" />
           <entry key="Properties" value="363" />
           <entry key="XML" value="934" />
         </counts>
@@ -338,14 +333,14 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Bassem Dakkan/IdeaProjects/RestAssuredSerenityBdd/src/test/java/com/studentapp/utils/TestUtils.java&#10;crud&#9;FILE&#9;file://C:/Users/Bassem Dakkan/IdeaProjects/RestAssuredSerenityBdd/src/test/java/com/studentapp/junit/featurestudentsinfo/StudentsCRUDTest.java&#10;assertThat&#9;PSI&#9;JAVA://org.hamcrest.MatcherAssert#assertThat" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538501617110" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538502064209" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22413793" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -605,7 +600,7 @@
       <workItem from="1538412304170" duration="851000" />
       <workItem from="1538421715507" duration="631000" />
       <workItem from="1538439578797" duration="286000" />
-      <workItem from="1538463031305" duration="9809000" />
+      <workItem from="1538463031305" duration="10151000" />
     </task>
     <task id="LOCAL-00001" summary="Deleting .gitignored file which is managed by IntelliJ&#10;Modified workspace.xml">
       <created>1538413049635</created>
@@ -614,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538413049635</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding cucumber tests">
+      <created>1538502048563</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538502048563</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -650,7 +652,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108190000" />
+    <option name="totallyTimeSpent" value="108532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -673,7 +675,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.9205922" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32974428" />
@@ -705,12 +707,39 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Deleting .gitignored file which is managed by IntelliJ&#10;Modified workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleting .gitignored file which is managed by IntelliJ&#10;Modified workspace.xml" />
+    <MESSAGE value="Adding cucumber tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding cucumber tests" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
